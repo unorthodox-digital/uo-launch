@@ -1,0 +1,13 @@
+{
+  "name": "uo-launch",
+  "private": true,
+  "type": "module",
+  "description": "Serverless functions for the client launch site. The pages themselves are static and are NOT built - see CLAUDE.md.",
+  "dependencies": {
+    "@vercel/blob": "^2.0.0",
+    "@vercel/edge": "^1.2.2"
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.0.0"
+  }
+}
